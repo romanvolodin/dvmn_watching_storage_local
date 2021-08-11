@@ -10,7 +10,7 @@
 
 ## Переменные окружения
 
-Настройки проекта берутся из переменных окружения. Чтобы их определить, создайте файл `.env` рядом с `recommend_me_movie.py` и запишите туда данные в таком формате: `ПЕРЕМЕННАЯ = значение`.
+Настройки проекта берутся из переменных окружения. Чтобы их определить, создайте файл `.env` рядом с `recommend_me_movie.py` и запишите туда данные в таком формате: `ПЕРЕМЕННАЯ=значение`.
 
 Доступные переменные:
 
@@ -25,13 +25,13 @@
 Пример:
 
 ```env
-DB_HOST = localhost
-DB_PORT = 5432
-DB_NAME = dbname
-DB_USER = dbuser
-DB_PASSWORD = Db0PasS%WrD
-SECRET_KEY = qaHytsdvsAPgv567yw6v345y6v65v
-DEBUG = False
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=dbname
+DB_USER=dbuser
+DB_PASSWORD=Db0PasS%WrD
+SECRET_KEY=qaHytsdvsAPgv567yw6v345y6v65v
+DEBUG=False
 ```
 
 
