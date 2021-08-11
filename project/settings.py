@@ -5,6 +5,7 @@ from environs import Env
 env = Env()
 env.read_env()
 
+db_engine = env.str("DB_ENGINE")
 db_host = env.str("DB_HOST")
 db_port = env.int("DB_PORT")
 db_name = env.str("DB_NAME")
@@ -13,7 +14,7 @@ db_password = env.str("DB_PASSWORD")
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': db_engine,
         'HOST': db_host,
         'PORT': db_port,
         'NAME': db_name,

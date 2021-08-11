@@ -14,6 +14,7 @@
 
 Доступные переменные:
 
+- `DB_ENGINE` — драйвер базы данных.
 - `DB_HOST` — адрес базы данных.
 - `DB_PORT` — порт, на котором запущена база.
 - `DB_NAME` — имя базы данных.
@@ -25,6 +26,7 @@
 Пример:
 
 ```env
+DB_ENGINE=django.db.backends.postgresql_psycopg2
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=dbname
