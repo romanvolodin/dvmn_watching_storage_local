@@ -22,6 +22,7 @@
 - `DB_PASSWORD` — порт, на котором запущена база.
 - `SECRET_KEY` — криптографическая подпись Джанго.
 - `DEBUG` — включает режим отладки.
+- `ALLOWED_HOSTS` — список доменов/хостов, на которых будет работать сайт. Подробнее в [документации Django](https://docs.djangoproject.com/en/1.11/ref/settings/#allowed-hosts)
 
 Пример:
 
@@ -34,6 +35,7 @@ DB_USER=dbuser
 DB_PASSWORD=Db0PasS%WrD
 SECRET_KEY=qaHytsdvsAPgv567yw6v345y6v65v
 DEBUG=False
+ALLOWED_HOSTS=localhost,127.0.0.1,example.com,www.example.com
 ```
 
 
